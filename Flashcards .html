@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vocabulary Flashcards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    .card {
+      width: 150px;
+      height: 100px;
+      background-color: white;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: transform 0.4s;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .front {
+      color: darkgrey;
+      font-size: 18px;
+    }
+
+    .back {
+      display: none;
+      color: blue;
+      font-size: 18px;
+    }
+
+    .flipped .front {
+      display: none;
+    }
+
+    .flipped .back {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- B1 Words -->
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Friendly</div>
+    <div class="back">Unfriendly</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Cheerful</div>
+    <div class="back">Grumpy</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Talkative</div>
+    <div class="back">Quiet</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Confident</div>
+    <div class="back">Shy</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Honest</div>
+    <div class="back">Dishonest</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Careful</div>
+    <div class="back">Reckless</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Generous</div>
+    <div class="back">Stingy</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Polite</div>
+    <div class="back">Rude</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Responsible</div>
+    <div class="back">Irresponsible</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Independent</div>
+    <div class="back">Dependent</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Strong</div>
+    <div class="back">Weak</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Fast</div>
+    <div class="back">Slow</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Young</div>
+    <div class="back">Old</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Stylish</div>
+    <div class="back">Unfashionable</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Neat</div>
+    <div class="back">Messy</div>
+  </div>
+
+  <!-- B2 Words -->
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Athletic</div>
+    <div class="back">Sedentary</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Organized</div>
+    <div class="back">Disorganized</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Punctual</div>
+    <div class="back">Late</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Well-groomed</div>
+    <div class="back">Unkempt</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Healthy</div>
+    <div class="back">Sick</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Hardworking</div>
+    <div class="back">Lazy</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Outgoing</div>
+    <div class="back">Reserved</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Open-minded</div>
+    <div class="back">Narrow-minded</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Energetic</div>
+    <div class="back">Tired</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Focused</div>
+    <div class="back">Distracted</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Cooperative</div>
+    <div class="back">Uncooperative</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Respectful</div>
+    <div class="back">Disrespectful</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Attentive</div>
+    <div class="back">Inattentive</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Relaxed</div>
+    <div class="back">Stressed</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Loyal</div>
+    <div class="back">Disloyal</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Creative</div>
+    <div class="back">Unimaginative</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Practical</div>
+    <div class="back">Unrealistic</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Patient</div>
+    <div class="back">Impatient</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Determined</div>
+    <div class="back">Indecisive</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Flexible</div>
+    <div class="back">Rigid</div>
+  </div>
+
+  <!-- C1 Words -->
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Assertive</div>
+    <div class="back">Passive</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Calm</div>
+    <div class="back">Anxious</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Cautious</div>
+    <div class="back">Reckless</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Decisive</div>
+    <div class="back">Indecisive</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Reliable</div>
+    <div class="back">Unreliable</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Tidy</div>
+    <div class="back">Messy</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Sociable</div>
+    <div class="back">Isolated</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Tolerant</div>
+    <div class="back">Intolerant</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Persuasive</div>
+    <div class="back">Unconvincing</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Detail-oriented</div>
+    <div class="back">Careless</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Adaptable</div>
+    <div class="back">Stubborn</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Proactive</div>
+    <div class="back">Reactive</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Charming</div>
+    <div class="back">Unappealing</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Diligent</div>
+    <div class="back">Negligent</div>
+  </div>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">Empathetic</div>
+    <div class="back">Unfeeling</div>
+  </div>
+
+  <script>
+    function flipCard(card) {
+      card.classList.toggle('flipped');
+    }
+  </script>
+
+</body>
+</html>
